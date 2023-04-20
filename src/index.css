@@ -57,3 +57,7 @@
 button {
   width: 50px;
 }
+
+.content:has(input:checked) p {
+  text-decoration: line-through;
+}
